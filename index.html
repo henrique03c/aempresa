@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CGreat+Vibes:400" media="all">
+    <title>Document</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+  </head>
+  <body class="body">
+    <div class="main">
+      <div class="navbar">
+        <div class="navdiv">
+          <a href="#home" class="link-aempresa"><img src="images/aempresa.png" loading="lazy" width="262" alt="" class="aempresa"></a>
+          <div class="nav-menu">
+            <a href="#produtos" class="nav1">
+              <div>Produtos</div>
+            </a>
+            <a href="#contato" class="nav1">
+              <div>Contatos</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="home" class="home">
+        <div class="black">black<br></div>
+        <div class="friday">Friday</div>
+        <div class="off">Smartphones com até 80% off</div>
+        <a href="#contato" class="saiba-mais">Saiba mais</a>
+      </div>
+      <div id="produtos" class="produtos">
+        <a href="#contato" class="prod-link">
+          <div  class="box-prod">
+            <div class="prod1">
+              <div class="promo">
+                <div class="text-desconto">20% de desconto</div>
+              </div><img src="images/iphone.jpg" loading="lazy" alt="" class="image">
+              <div class="descricao">iPhone 11 Apple (64GB) Branco<br>Tela 6,1 4G Câmera 12MP iOS</div>
+              <div class="x12">12x sem juros no cartão</div>
+            </div>
+          </div>
+        </a>
+        <a href="#contato" class="prod-link">
+          <div class="box-prod">
+            <div class="prod1">
+              <div class="promo">
+                <div class="text-desconto">40% de desconto</div>
+              </div><img src="images/motoG9Play.jpg" loading="lazy" alt="" class="image">
+              <div class="descricao">Smartphone Motorola Moto E7 Plus 64GB - 4G Wi-Fi Tela 6.5 </div>
+              <div class="x12">10x sem juros no cartão</div>
+            </div>
+          </div>
+        </a>
+        <a href="#contato" class="prod-link">
+          <div class="box-prod">
+            <div class="prod1">
+              <div class="promo">
+                <div class="text-desconto">70% de desconto</div>
+              </div><img src="images/lg.jpg" loading="lazy" alt="" class="image">
+              <div class="descricao">Smartphone LG K22 32GB 4G Wi-Fi Tela 6.2 2GB RAM</div>
+              <div class="x12">10x sem juros no cartão</div>
+            </div>
+          </div>
+        </a>
+        <a href="#contato" class="prod-link">
+          <div class="box-prod">
+            <div class="prod1">
+              <div class="promo">
+                <div class="text-desconto">65% de desconto</div>
+              </div><img src="images/samsung.jpg" loading="lazy"  alt="" class="image">
+              <div class="descricao">Smartphone Samsung Galaxy A01 Core 32GB - 4G Wi-Fi</div>
+              <div class="x12">6x sem juros no cartão</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="contato" class="contato">
+        <div class="ttitle-form">Cadastre-se e receba novidades<br>e promoções da Black Friday</div>
+        <div class="formu">Quer ficar por dentro das melhooores ofertas? então você tá no lugar certo! <br>deixa seu nome e e-mail aqui, a gente te conta 🙂</div>
+        <div class="box">
+          <div id="menu" class="menu">
+            <img id="on-menu" src="images/grid-fill.svg" loading="lazy" width="8" alt="" class="on-menu">
+            <img id="off-menu" src="images/x-lg.svg" loading="lazy" alt="" class="off-menu">
+            <div class="info-mobile">Veja os dados cadastrados aqui</div>
+          </div>
+          <div id="enviar" class="enviar">
+            <div class="form-block">
+              <form id="email-form" name="email-form" class="form">
+                <label for="nome" class="title-input">Nome<span id="nomeRequired" class="required">*Nome obrigatório</span></label>
+                <input type="text" class="input" maxlength="256" name="nome" data-name="nome" placeholder="Nome" id="nome" required="required">
+                <label for="email" class="title-input">Email<span id="emailRequired" class="required">* Email obrigatório</span></label>
+                <input type="email" class="input" maxlength="256" name="email" data-name="email" placeholder="E-mail" id="email" required="required">
+                <div class="termo-de-uso">Ao cadastrar-se você concorda, com os <br>Termos e Condições de Uso.</div>
+                <div class="div-submit">
+                  <button  id="cadastrar" type="submit" class="submit" >Cadastrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div id="localStorage" class="local-storage">
+            <div class="text-localstorage">Dados Cadastrados</div>
+            <div class="box-dados">
+              <div class="ls-text-nome">Nome:</div>
+              <div id="lsnome" class="ls-nome">---</div>
+            </div>
+            <div class="box-dados">
+              <div class="ls-text-email">Email:</div>
+              <div id="lsemail" class="ls-email">---</div>
+            </div>
+              <button  id="remove" class="remove-item">Remover Itens</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="other">
+          <a href="#home" class="link-aempresa"><img src="images/aempresa.png" loading="lazy" width="262" alt="" class="aempresa"></a>
+        </div>
+        <div class="other">
+          <a href="https://github.com/ihenri3/" target="_blank" class="link">Github</a>
+          <a href="https://www.linkedin.com/in/ihenri3/" target="_blank" class="link">Linkedin</a>
+        </div>
+        <div class="other">
+          <a href="#" class="link">Política de Privacidade</a>
+          <div class="copyright">© 2021 aempresa</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script> 
+  </body>
+</html>
+
+
+
+
+
+
+
